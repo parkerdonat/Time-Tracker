@@ -1,5 +1,5 @@
 //
-//  TTListViewController.h
+//  TTDetailViewController.h
 //  Time-Tracker
 //
 //  Created by Joshua Howland on 6/6/14.
@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TTListViewController : UIViewController
+@class Project;
+
+@interface TTDetailViewController : UIViewController
+
+@property (nonatomic, strong) Project *project;
+
 
 @end
